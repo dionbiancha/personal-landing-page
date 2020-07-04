@@ -7,9 +7,13 @@ body {
   height: 100vh;
 }
 .header-body-page {
-  display: flex;
   position: absolute;
-  height: 90px;
+  width: 100%;
+}
+.header-body-page nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin: 25px;
 }
 
