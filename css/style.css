@@ -1,0 +1,33 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+.body-page {
+  width: 100%;
+  height: 100vh;
+}
+.header-body-page {
+  display: flex;
+  position: absolute;
+  height: 90px;
+  margin: 25px;
+}
+
+.capture-email {
+  background: #FCFBFF;
+}
+.create-desire {
+  
+}
+.proof-results {
+  
+}
+.services {
+
+}
+.depositions {
+  
+}
+.faq {
+  
+}
