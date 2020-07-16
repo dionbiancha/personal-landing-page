@@ -39,10 +39,48 @@ body {
   background: #FCFBFF;
 }
 .background-capture-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50%;
-  margin-top: -15%;
+  
   background-repeat: no-repeat;
   background-image: url(../images/background-capture-email.svg);
+}
+.background-capture-email img {
+  width: 450px;
+  height: 400px;
+}
+.input-email-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  justify-content: center;
+  margin: 0px;
+}
+.input-email-area h1 {
+  color: #FFDE77;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.title-enfase {
+  font-size: 125px;
+}
+.input-email {
+  width: 400px;
+  height: 35px;
+  background: #FFFFFF;
+  box-shadow: 4px 5px 20px rgba(0, 0, 0, 0.1);
+  border: 0 none;
+  outline: 0;
+  padding: 15px;
+}
+.input-email::-webkit-input-placeholder {
+  color: #B5B8BC;
 }
 
 .create-desire {
