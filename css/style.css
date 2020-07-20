@@ -67,6 +67,9 @@ body {
   font-size: 60px;
   text-transform: uppercase;
 }
+.input-email-area form {
+  flex-direction: row;
+}
 .title-enfase {
   font-size: 125px;
 }
@@ -81,6 +84,16 @@ body {
 }
 .input-email::-webkit-input-placeholder {
   color: #B5B8BC;
+}
+.input-email-button {
+  background: #FD4C5C;
+  color: #FFFFFF;
+  font-size: 13px;
+  box-shadow: 4px 5px 20px rgba(0, 0, 0, 0.1);
+  border: 0 none;
+  outline: 0;
+  padding: 25px;
+  margin-left: -5px;
 }
 
 .create-desire {
