@@ -70,6 +70,11 @@ body {
 .input-email-area form {
   flex-direction: row;
 }
+.input-email-area p {
+  color: #6E7075;
+  font-size: 15px;
+  width: 540px;
+}
 .title-enfase {
   font-size: 125px;
 }
@@ -97,8 +102,11 @@ body {
 }
 
 .create-desire {
-  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/background-create-desire.svg);
 }
+
 .proof-results {
   
 }
