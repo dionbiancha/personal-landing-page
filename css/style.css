@@ -154,8 +154,26 @@ body {
 }
 
 .proof-results {
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+.proof-results h1 {
+  font-weight: bold;
+  color: #1F243A;
+}
+.video-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/background-proof-results.svg);
+}
+
 .services {
 
 }
