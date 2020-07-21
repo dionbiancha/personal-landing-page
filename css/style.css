@@ -102,9 +102,55 @@ body {
 }
 
 .create-desire {
+  display: flex;
+  flex-direction: row;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(../images/background-create-desire.svg);
+}
+.image-desire {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-desire img{
+  width: 500px;
+  height: 450px;
+}
+.itens-desire {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.itens-desire h1 {
+  font-size: 50px;
+  color: #1F243A;
+  margin: 0;
+}
+.itens-desire p {
+  color: #7B7B7C;
+  font-style: italic;
+  margin: 0;
+}
+.itens-desire ol {
+  list-style-type: none;
+  padding: 0px;
+}
+.itens-desire span {
+  color: #FFDE77;
+  font-weight: bold;
+  font-size: 50px;
+  margin-right: 5px;
+}
+.itens-desire li {
+  color: #1F253B;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
 }
 
 .proof-results {
