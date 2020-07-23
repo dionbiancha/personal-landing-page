@@ -294,5 +294,68 @@ body {
 }
 
 .faq {
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.faq h1 {
+  font-weight: bold;
+  font-size: 35px;
+  color: #1F243A;
+  margin-bottom: 50px;
+}
+.faq h2 {
+  font-weight: 500;
+  font-size: 25px;
+}
+.faq img {
+  width: 20px;
+  height: 20px;
+}
+.more-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+}
+/* Checkbox Hack */
+#toggle-1 {
+  display:none;
+}
+#toggle-2 {
+  display:none;
+}
+#toggle-3 {
+  display:none;
+}
+#toggle-4 {
+  display:none;
+}
+label { 
+ -webkit-appearance: push-button;
+ -moz-appearance: button; 
+ display: inline-block;
+ cursor: pointer;
+ padding: 5px;
+}
+/* CSS padrão da div */
+#mostra {
+  display:none;
+  width: 1000px;
+  font-size: 18px;
+  color: #7B7B7C
+}
+/* CSS quando o checkbox está marcado */
+#toggle-1:checked ~ #mostra {
+  display:block;
+}
+#toggle-2:checked ~ #mostra {
+  display:block;
+}
+#toggle-3:checked ~ #mostra {
+  display:block;
+}
+#toggle-4:checked ~ #mostra {
+  display:block;
 }
