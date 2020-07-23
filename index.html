@@ -7,10 +7,11 @@
 
   <link href="css/style.css" rel="stylesheet">
   <link href="css/slide.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="body-page capture-email">
+  <div class="body-page capture-email" data-aos="fade-up">
     <header class="header-body-page">
         <nav>
           <img src="images/logo.png" />
@@ -50,7 +51,7 @@
       </ol>
     </div>
   </div>
-  <div class="body-page proof-results">
+  <div class="body-page proof-results" data-aos="fade-up">
     <h1>Precisa de mais motivos?</h1>
     <div class="video-area">
       <iframe width="550" height="300" src="https://www.youtube.com/embed/ftvVl7NtM1A" 
@@ -75,7 +76,7 @@
       </div>
     </div>
   </div>
-  <div class="body-page services">
+  <div class="body-page services" data-aos="fade-up">
     <h1>Soluções para o seu negócio</h1>
     <h2>Entre em contato AGORA e receba 30% de desconto!</h2>
     <div class="services-area">
@@ -118,7 +119,7 @@
     </div>
     <img class="garantia-img" src="images/garantia.png">
   </div>
-  <div class="body-page depositions">
+  <div class="body-page depositions" data-aos="fade-up">
     <h1>Depoimentos</h1>
     <div class="slideshow-container">
       <!-- Full-width images with number and caption text -->
@@ -167,7 +168,7 @@
       <span class="dot" onclick="currentSlide(3)"></span>
     </div>
   </div>
-  <div class="body-page faq">
+  <div class="body-page faq" data-aos="fade-up">
     <h1>Perguntas Frequentes</h1>
     <div class="question-area">
       <label for="toggle-1">
@@ -237,6 +238,10 @@
     </div>
   </div>
   <script src="js/slide.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
 
