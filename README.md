@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Ladding page" src="https://res.cloudinary.com/dionbiancha/image/upload/v1610499491/github/ladding-page-2_l6pa71.png" />
+    <img alt="Ladding page" src="https://res.cloudinary.com/dionbiancha/image/upload/v1610804085/github/favicon_bhezhh.ico" />
     <br>
     Ladding page
 </h1>
