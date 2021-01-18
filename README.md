@@ -5,7 +5,7 @@
 </h1>
 
 <h4 align="center">
-  NetShoes Clone App with React and Redux.
+  Data capture page
 </h4>
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/dionbiancha/personal-landing-page.svg">
