@@ -32,7 +32,10 @@
   <a href="#memo-license">License</a>
 </p>
 
-![App Screenshot](https://res.cloudinary.com/dionbiancha/image/upload/v1610499491/github/ladding-page-1_g79dwo.png)
+<p align="center">
+   <img alt="Lading page" src="https://res.cloudinary.com/dionbiancha/image/upload/v1613043846/github/5555_rxvemp.gif">
+</p>
+
 <p align="center">
   <a href="https://dionbiancha.github.io/personal-landing-page/" target="_blank">
     <img alt="Lading page" src="https://res.cloudinary.com/dionbiancha/image/upload/v1610500435/github/view_on_github_n2rq43.png">
